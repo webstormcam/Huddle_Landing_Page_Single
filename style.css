@@ -20,7 +20,6 @@ body{
     align-items: center;
    background-image: url('imgs/bg-mobile.svg');
     background-repeat: no-repeat;
-    background-position: top 20px;
     
 }
 
@@ -45,7 +44,7 @@ main{
 }
 
 #webimage{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #webimage img{
