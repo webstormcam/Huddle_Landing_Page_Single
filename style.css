@@ -134,6 +134,10 @@ footer{
     
     
     
+    main{
+        width: 900px;
+        flex-direction: row;
+    }
     
     #background{
         background-image: url('imgs/bg-desktop.svg');
@@ -148,6 +152,17 @@ footer{
 
     header{
         width: 100%;
+    }
+
+    footer{
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 50px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+       
+        
     }
 }
 
