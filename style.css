@@ -86,3 +86,12 @@ footer{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(146deg) brightness(102%) contrast(105%);
 }
 
+@media (min-width:1440px){
+    #background{
+        background-image: url('imgs/bg-desktop.svg');
+        width: 100%;
+        background-position: top 20px ;
+      
+    }
+}
+
