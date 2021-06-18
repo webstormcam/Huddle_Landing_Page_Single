@@ -154,6 +154,10 @@ footer{
       
     }
 
+    header img{
+        width: 230px;
+    }
+
     #words{
         text-align: start;
         width: 500px;
