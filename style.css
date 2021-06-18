@@ -127,6 +127,10 @@ footer{
     filter: invert(85%) sepia(24%) saturate(4609%) hue-rotate(246deg) brightness(96%) contrast(89%);
 }
 
+.block{
+    display: none;
+}
+
 @media (min-width:1440px){
     body,html{
         height: 100%;
@@ -135,8 +139,9 @@ footer{
     
     
     main{
-        width: 900px;
+        width: 100%;
         flex-direction: row;
+        justify-content: center;
     }
     
     #background{
@@ -149,11 +154,34 @@ footer{
       
     }
 
+    #words{
+        text-align: start;
+        width: 500px;
+        margin-left: 80px;
+    }
+
+    #words h1{
+        font-size: 32px;
+    }
+
+    #words p{
+        line-height: 1.8em;
+    }
+
 
     header{
         width: 100%;
     }
 
+
+    #webimage img{
+        width: 700px;
+      
+    }
+
+    .block{
+        display: block;
+    }
     footer{
         width: 100%;
         justify-content: flex-end;
@@ -163,6 +191,10 @@ footer{
         right: 0;
        
         
+    }
+
+    .button{
+        padding: 10px 50px;
     }
 }
 
