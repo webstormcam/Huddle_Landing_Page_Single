@@ -155,7 +155,8 @@ footer{
     }
 
     header img{
-        width: 230px;
+        width: 210px;
+        margin-left: 110px;
     }
 
     #words{
