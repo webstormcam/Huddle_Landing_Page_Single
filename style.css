@@ -150,19 +150,23 @@ footer{
         height: 100%;
         background-repeat: no-repeat;
         background-size: contain;
+     background-position-x: 5%;
+     
         
       
     }
 
     header img{
         width: 210px;
-        margin-left: 110px;
+        margin-left: 150px;
     }
 
     #words{
         text-align: start;
         width: 500px;
         margin-left: 80px;
+        position: relative;
+        bottom: 40px;
     }
 
     #words h1{
@@ -180,7 +184,13 @@ footer{
 
 
     #webimage img{
-        width: 700px;
+        width: 810px;
+        position: relative;
+        left: -50px;
+        top: 50px;
+        
+       
+        
       
     }
 
